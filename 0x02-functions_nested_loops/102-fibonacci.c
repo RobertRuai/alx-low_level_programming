@@ -24,12 +24,11 @@ int main(void)
 		b = sum;
 		if (counter == 49)
 		{
-			printf(" ");
+			printf("\n");
 		}
 		else
 			printf(", ");
 	}
-	printf("\n");
 
 	return (0);
 }
