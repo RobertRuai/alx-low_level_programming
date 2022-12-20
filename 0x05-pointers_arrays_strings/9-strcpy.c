@@ -2,7 +2,7 @@
 
 /*
 **
- * \*_strcpy - copies a string from one pointer to another
+ * _strcpy - copies a string from one pointer to another
  *	including the terminating null byte (\0)
  *
  * @src: character to print
