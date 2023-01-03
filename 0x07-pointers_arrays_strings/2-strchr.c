@@ -8,7 +8,6 @@
  * @s: The character to print
  * @c: The character to print
  *
- *
  * Return: Always 0 (Success)
  */
 char *_strchr(char *s, char c)
@@ -16,7 +15,9 @@ char *_strchr(char *s, char c)
 	int i = 0, j;
 
 	while (s[i])
+	{
 		i++;
+	}
 	for (j = 0; j < i; j++)
 	{
 		if (c == s[j])
