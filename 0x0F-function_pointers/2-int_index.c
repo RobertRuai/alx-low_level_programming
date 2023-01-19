@@ -1,15 +1,28 @@
 #include "function_pointers.h"
 
 /**
- *  - entry point
+ * int_index- entry point
  *
- * description -
+ * description - a function that searches for an integer.
  *
- * @c: The character to print
+ * @array: The character to print
+ * @size: The character to print
+ * @cmp: The character to print
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int int_index(int *array, int size, int (*cmp)(int))
 {
-	return (0);
+	int i;
+
+	if (array && cmp)
+	{
+		for (i = 0; i < size; i++)
+		{
+			if (cmp(array[i]) != 0)
+				return (i);
+		}
+	}
+
+	return (-1);
 }
