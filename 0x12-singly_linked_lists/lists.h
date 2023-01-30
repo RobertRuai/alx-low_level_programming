@@ -3,7 +3,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <stddef.h>
 
 /**
  * struct list_s - singly linked list
@@ -15,9 +14,9 @@
  */
 typedef struct list_s
 {
-    char *str;
-    unsigned int len;
-    struct list_s *next;
+	char *str;
+ 	unsigned int len;
+ 	struct list_s *next;
 } list_t;
 
 /* prototypes */
