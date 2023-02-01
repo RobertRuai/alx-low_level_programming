@@ -1,2 +1,1 @@
-This directory contains all alx low-level programming projects  
- 
+This directory contains all alx low-level programming projects 
