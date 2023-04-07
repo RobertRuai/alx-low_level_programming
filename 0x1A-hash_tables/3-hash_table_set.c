@@ -29,6 +29,11 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	}
 	else if (strcmp(ht->array[i]->key, key) == 0)
 		strcpy(ht->array[i]->value, value);
+	else
+	{
+		newnode->next = ht->array[i];
+		ht->array[i] = newnode;
+	}
 
 	return (1);
 }
