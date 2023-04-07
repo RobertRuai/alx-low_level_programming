@@ -3,7 +3,7 @@
 /**
  * key_index - entry point
  *
- * description - a function that gives you the index of  key
+ * description - a function that gives you the index of key
  *
  * @key: The character to print
  * @size: The character to print
